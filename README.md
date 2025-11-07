@@ -3,7 +3,7 @@
 
 A comprehensive web-based management system for electric vehicle charging station networks. This application provides a full-stack solution with user authentication, vehicle management, charging session tracking, and station monitoring.
 
-## 🚀 Features
+## Features
 
 - **User Authentication**: Login and signup functionality with profile management
 - **Dashboard**: Real-time overview of charging activity, energy consumption, and costs
@@ -14,7 +14,7 @@ A comprehensive web-based management system for electric vehicle charging statio
 - **Maintenance Records**: Track maintenance schedules and service history
 - **Facilities Overview**: Check available amenities at charging stations
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v18 or higher)
 - MySQL Server (v5.7 or higher)
@@ -74,7 +74,7 @@ The application expects the following tables:
 - **Procedure**: `get_user_history(user_id)` - Retrieves user charging history
 - **Trigger**: Auto-calculate cost in `charging_session` table based on energy consumed
 
-## 🚀 Running the Application
+##  Running the Application
 
 ### Start the Backend Server
 
@@ -98,7 +98,7 @@ http-server -p 8000
 
 Then navigate to `http://localhost:8000`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ev_charging_gui/
@@ -130,7 +130,7 @@ For each table: `user`, `vehicle`, `charging_station`, etc.
 - `POST /api/charging_session_insert` - Insert charging session (triggers auto-cost calculation)
 - `GET /api/schema/:table` - Get column names for a table
 
-## 👤 User Guide
+##  User Guide
 
 ### First Time Setup
 
@@ -155,7 +155,7 @@ For each table: `user`, `vehicle`, `charging_station`, etc.
 2. Enter Vehicle ID, Charger ID, and Energy Consumed
 3. The system will automatically calculate the cost
 
-## 🎨 UI Features
+##  UI Features
 
 - **Responsive Design**: Works on desktop and mobile devices
 - **Interactive Charts**: Visualize energy consumption with Chart.js
@@ -163,13 +163,13 @@ For each table: `user`, `vehicle`, `charging_station`, etc.
 - **Dark Sidebar**: Modern, professional interface
 - **Error Handling**: Debug console for troubleshooting
 
-## 🔐 Security Notes
+##  Security Notes
 
 - Currently uses localStorage for session management (client-side only)
 - No password authentication implemented (email-based login only)
 - **For production use**: Implement proper authentication with JWT tokens, password hashing, and secure session management
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Server Won't Start
 
@@ -193,7 +193,7 @@ For each table: `user`, `vehicle`, `charging_station`, etc.
 
 The application includes a debug console that appears at the bottom-right when errors occur. This helps identify JavaScript issues during development.
 
-## 📦 Dependencies
+##  Dependencies
 
 ### Backend
 - **express** (5.1.0): Web framework
@@ -203,7 +203,7 @@ The application includes a debug console that appears at the bottom-right when e
 ### Frontend
 - **Chart.js** (CDN): Data visualization
 
-## 🔄 Future Enhancements
+##  Future Enhancements
 
 - Implement proper authentication with passwords
 - Add real-time charging status monitoring
@@ -214,15 +214,15 @@ The application includes a debug console that appears at the bottom-right when e
 - Email notifications for completed sessions
 - Generate PDF receipts
 
-## 📄 License
+##  License
 
 ISC
 
-## 👥 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📞 Support
+##  Support
 
 For issues or questions, please check the debug console or contact the development team.
 
