@@ -228,4 +228,4 @@ For issues or questions, please check the debug console or contact the developme
 
 ---
 
-**Built with ⚡ for the EV Charging Community**
+**Built with  for the EV Charging Community**
