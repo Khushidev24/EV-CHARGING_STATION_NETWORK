@@ -20,7 +20,7 @@ A comprehensive web-based management system for electric vehicle charging statio
 - MySQL Server (v5.7 or higher)
 - npm or yarn package manager
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -228,4 +228,4 @@ For issues or questions, please check the debug console or contact the developme
 
 ---
 
-**Built with ⚡ for the EV Charging Community**
+**Built with  for the EV Charging Community**
